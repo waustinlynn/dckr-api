@@ -13,7 +13,7 @@ namespace dckr_api.Controllers
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[] { "value1", "value2" };
+            return new string[] { "value1", "value2", "value_holla" };
         }
 
         // GET api/values/5
